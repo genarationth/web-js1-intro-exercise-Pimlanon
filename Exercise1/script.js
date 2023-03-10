@@ -1,10 +1,8 @@
 function ChangeName() {
-    let person = prompt("What is your name", "Lak");
+    let person = prompt("What is your name", "Tinky Winky");
     console.log("The button has been clicked");
     document.getElementById("yourName")
-    .innerHTML = person;
-
-    
+    .innerHTML = person + "! 元気? ♡";
 }
 
 
